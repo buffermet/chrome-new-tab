@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Chrome Dark New Tab",
+  "version": "1.0",
+  "description": "Proper dark new tab page without the bells and whistles.",
+  "browser_action": {
+    "default_title": "Proper dark new tab page without the bells and whistles."
+  },
+  "incognito": "spanning",
+  "chrome_url_overrides": {
+    "newtab": "/assets/html/new-tab.html"
+  }
+}
